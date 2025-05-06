@@ -1,0 +1,29 @@
+/* front/styles/style.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #181818; /* Dark background */
+    color: #f5f5f5; /* Light text */
+}
+
+.movie-card {
+    background-color: #212121;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.movie-title {
+    color: #e0f7fa; /* An accent color for the title */
+}
+
+.movie-year, .movie-genre, .movie-rate {
+    color: #bdbdbd;
+}
+
+.movie-poster {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 300px;
+    object-fit: cover;
+}
